@@ -1,0 +1,127 @@
+
+        /* Fonte e cores gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #fff8f0;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        /* Cabeçalhos */
+        h1 {
+            text-align: center;
+            color: #d9534f;
+            margin-top: 40px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #f0ad4e;
+            border-bottom: 2px solid #f0ad4e;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        h3 {
+            color: #5bc0de;
+            margin-top: 30px;
+        }
+
+        /* Parágrafos */
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Bloco de citação */
+        blockquote {
+            background-color: #fff3cd;
+            border-left: 5px solid #f0ad4e;
+            margin: 20px 0;
+            padding: 15px 20px;
+            font-style: italic;
+        }
+
+        blockquote footer {
+            font-style: normal;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        /* Listas */
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li strong {
+            color: #d9534f;
+        }
+
+        li em {
+            color: #5bc0de;
+        }
+
+        /* Imagem */
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        table caption {
+            caption-side: top;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #d9534f;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 10px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #f7c6c5;
+            color: #333;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        table td[colspan] {
+            background-color: #fff0f0;
+            font-weight: bold;
+        }
+
+        /* Links (se houver) */
+        a {
+            color: #d9534f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
